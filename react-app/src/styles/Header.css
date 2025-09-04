@@ -1,0 +1,80 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #0f2027; 
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: slideDown 0.5s ease;
+}
+
+
+@keyframes slideDown {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+
+.app-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: default;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.app-name:hover {
+  transform: scale(1.1) rotate(-2deg);
+  color: #ff4d4d;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+
+.nav-link {
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+}
+
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  bottom: -2px;
+  left: 0;
+  background-color: #ff4d4d;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+.nav-link:hover {
+  
+  transform: scale(1.1) rotate(-1deg);
+
+}
+
+.nav-link:last-child:hover {
+  transform: scale(1.2) rotate(2deg);
+}
