@@ -48,7 +48,7 @@ With **MovieHub**, you can! **Search for your favorite movies**, add them with a
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/BKani23/MoviesHub.git
+git clone https://github.com/BKani23/MovieHub.git
 ```
 
 2. Install dependencies:
