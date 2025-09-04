@@ -1,0 +1,50 @@
+.no-movies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+.no-movies-icon {
+  width: 80px;
+  height: 80px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.no-movies-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.no-movies-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.no-movies-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.no-movies-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.no-movies-button:active {
+  transform: scale(0.95);
+}
