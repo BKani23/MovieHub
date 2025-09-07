@@ -60,7 +60,7 @@ npm install
 3. Start the app:
 
 ```bash
-npm start
+npm run dev
 ```
 
 4. Open `http://localhost:3000` in your browser and **start searching and adding movies**! 🎉
