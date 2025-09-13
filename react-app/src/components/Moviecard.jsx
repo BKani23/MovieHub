@@ -1,4 +1,4 @@
-import '../styles/moviecard.css'
+// import '../styles/moviecard.css'
 import React from 'react'
 import { FaHeart } from "react-icons/fa";
 import { useMovieContext } from '../contexts/MovieContext';
