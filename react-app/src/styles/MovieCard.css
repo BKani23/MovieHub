@@ -1,4 +1,4 @@
-.movie-card {
+/* .movie-card {
      position: relative;
      width: 200px;
      margin: 15px;
@@ -33,7 +33,7 @@
      transition: transform 0.2s ease, color 0.3s ease;
    }
    
-   /* Default (not favorited) */
+   
    .like-button {
      color: #aaa;
    }
@@ -42,8 +42,7 @@
      transform: scale(1.2);
      color: #ff4d4d;
    }
-   
-   /* Active (favorited) */
+
    .like-button-active {
      color: #e60023;
      transform: scale(1.2);
@@ -67,4 +66,4 @@
      padding: 0 10px;
      color: #666;
    }
-   
+    */
