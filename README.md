@@ -45,6 +45,8 @@ With **MovieHub**, you can! **Search for your favorite movies**, add them with a
 
 ## 📥 Getting Started
 
+**Local Development (For Developers)**
+
 1. Clone the repo:
 
 ```bash
@@ -56,16 +58,31 @@ git clone https://github.com/BKani23/MovieHub.git
 ```bash
 npm install
 ```
+3. Start the backend (Express server):
 
-3. Start the app:
+```bash 
+cd backend
+npm start
+```
+
+4. Start the frontend (React app):
 
 ```bash
+cd frontend
 npm run dev
+```
+
+5. Open your browser at:
+
+```bash
+http://localhost:3000
 ```
 
 4. Open `http://localhost:3000` in your browser and **start searching and adding movies**! 🎉
 
 ---
 
+**Live Demo (For Everyone)**
 
-
+* Frontend : Live on vercel https://movie-hub-eta-two.vercel.app/
+* Backend  : Live on Render https://moviehub-8uoj.onrender.com/
