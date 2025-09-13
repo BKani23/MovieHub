@@ -85,4 +85,4 @@ http://localhost:3000
 **Live Demo (For Everyone)**
 
 * Frontend : Live on vercel https://movie-hub-eta-two.vercel.app/
-* Backend  : Live on Render https://moviehub-8uoj.onrender.com/
+
