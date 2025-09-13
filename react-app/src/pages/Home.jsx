@@ -15,7 +15,7 @@ function Home() {
     const fetchData = async () => {
       try {
         // Fetch popular
-        const request = await fetch("http://localhost:5000/api/movies/popular");
+        const request = await fetch("https://moviehub-8uoj.onrender.com/api/movies/popular");
         const data = await request.json();
         setMovies(data.results || []);
 
@@ -49,7 +49,7 @@ function Home() {
     try {
       // Search
       const response = await fetch(
-        `http://localhost:5000/api/movies/search?query=${encodeURIComponent(searchQuery)}`
+        `https://moviehub-8uoj.onrender.com/api/movies/search?query=${encodeURIComponent(searchQuery)}`
       );
       const data = await response.json();
       setMovies(data.results || []);
