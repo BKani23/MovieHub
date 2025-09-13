@@ -9,6 +9,11 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("Express backend is running. Use /api/movies/popular or /api/movies/search");
+});
+
+
 // Proxy route for TMDB
 app.get("/api/movies/popular", async (req, res) => {
   try {
