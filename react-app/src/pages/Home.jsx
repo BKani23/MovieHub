@@ -14,11 +14,11 @@ function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const request = await fetch(
-          "https://api.themoviedb.org/3/movie/popular?api_key=b4c58230fe091c27e09e3c42f2543312"
-        );
+        // Fetch popular
+        const request = await fetch("http://localhost:5000/api/movies/popular");
         const data = await request.json();
         setMovies(data.results || []);
+
         setError(null);
       } catch (error) {
         setError("Failed to load movies");
@@ -47,13 +47,13 @@ function Home() {
     if (!searchQuery.trim() || loading) return;
 
     try {
+      // Search
       const response = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=b4c58230fe091c27e09e3c42f2543312&query=${encodeURIComponent(
-          searchQuery
-        )}`
+        `http://localhost:5000/api/movies/search?query=${encodeURIComponent(searchQuery)}`
       );
       const data = await response.json();
-      setMovies(data.results);
+      setMovies(data.results || []);
+      
     } catch (error) {
       console.log(error);
       setError("Failed to load movies...");
