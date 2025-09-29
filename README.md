@@ -34,7 +34,7 @@ With **MovieHub**, you can! **Search for your favorite movies**, add them with a
 
 ## 🎨 Why You’ll Love It
 
-> “Turn movie browsing and searching into a **fun, personalized adventure**!”
+> Turn movie browsing and searching into a **fun, personalized adventure**!
 
 * Search and **discover movies in seconds**.
 * Click hearts that **pop and scale** when you favorite a movie.
